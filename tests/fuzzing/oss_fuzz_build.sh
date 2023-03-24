@@ -12,3 +12,4 @@ compile_go_fuzzer github.com/opencontainers/runc/libcontainer/userns FuzzUIDMap 
 compile_go_fuzzer github.com/opencontainers/runc/libcontainer/user FuzzUser user_fuzzer
 compile_go_fuzzer github.com/opencontainers/runc/libcontainer/configs FuzzUnmarshalJSON configs_fuzzer
 compile_go_fuzzer github.com/opencontainers/runc/libcontainer/configs FuzzUnmarshalJSON2 configs_fuzzer_2
+compile_go_fuzzer github.com/opencontainers/runc/libcontainer/system FuzzParseStat system_fuzzer
